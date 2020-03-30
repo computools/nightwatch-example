@@ -1,0 +1,26 @@
+{
+      "name": "nightwatch-pet-project",
+      "version": "1.0.0",
+      "description": "pet-project",
+      "main": "index.js",
+      "engines": {
+            "node": ">=4.4.6"
+      },
+      "scripts": {
+            "test": "nightwatch --env local",
+            "test:vrt": "nightwatch -c nightwatch.vrt.js"
+      },
+      "devDependencies": {
+            "chromedriver": "latest",
+            "nodemon": "^2.0.0",
+            "selenium-server": "^3.8.1"
+      },
+      "dependencies": {
+            "chai": "^4.2.0",
+            "chai-http": "^4.3.0",
+            "mocha": "^7.0.0",
+            "nightwatch": "^1.3.2",
+            "nightwatch-api": "^3.0.1",
+            "nightwatch-vrt": "^0.2.9"
+      }
+}

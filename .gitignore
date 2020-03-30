@@ -1,0 +1,9 @@
+../../Desktop/e2e/.idea
+node_modules
+tests_output
+chromedriver.log
+debug.log
+vrt
+vrt/baseline
+vrt/diff
+vrt/latest
